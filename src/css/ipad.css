@@ -159,7 +159,10 @@ nav a:visited {
     left:25px
 }
 
-.avatar img{
+.avatar {
+    background-image: url("../../images/my_avatar.jpg");
+    background-position: 0px -13px;
+    background-size: cover;
     cursor: pointer;
     height: 60px;
     width: 60px;
