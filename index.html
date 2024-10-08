@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+ 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link  rel="stylesheet" href="./src/css/mobile.css" media="screen and (max-width: 623px)">
+  <link  rel="stylesheet" href="./src/css/ipad.css" media="screen and (max-width: 1023px)">
+  <link  rel="stylesheet" href="./src/css/style.css" media="screen and (min-width: 1024px)">
+  
+ 
+  
+  <script defer src="./index.js"></script>
+  <title>E-commerce product page</title>
+
+</head>
+<body>
+  <header>
+    <div class="header__start">
+      <div class="nav-ivon__for-mob"><img src="./images/icon-menu.svg" alt=""></div>
+      <div class="log"><strong>sneakers</strong></div>
+      <nav>
+        <div class="nav__elem"><a href="#">Collections</a></div>
+        <div class="nav__elem"><a href="#">Men</a></div>
+        <div class="nav__elem"><a href="#">Women</a></div>
+        <div class="nav__elem"><a href="#">About</a></div>
+        <div class="nav__elem"><a href="#">Contact</a></div>
+      </nav>
+    </div>
+    <div class="header__end">
+      <div class="cart-logo">
+        <img src="./images/icon-cart.svg" alt="cart-icon">
+        <div class="items-num"><strong>0</strong></div>
+      </div>
+      <div class="avatar"></div>
+    </div>
+    
+  </header>
+  <main>
+    <div class="images">
+      <!-- <div class="images__main"><img src="./images/image-product-1.jpg" alt="main-img"></div>
+      <div class="images__secondary">
+        <div class="images__secondary__elem"><img src="./images/image-product-1-thumbnail.jpg" alt=""></div>
+        <div class="images__secondary__elem"><img src="./images/image-product-2-thumbnail.jpg" alt=""></div>
+        <div class="images__secondary__elem"><img src="./images/image-product-3-thumbnail.jpg" alt=""></div>
+        <div class="images__secondary__elem"><img src="./images/image-product-4-thumbnail.jpg" alt=""></div>
+      </div> -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/image-product-1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image-product-2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image-product-3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image-product-4.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="comapny-name">Sneaker Company</div>
+      <h1 class="title">Fall Limited Edition Sneakers</h1>
+      <p class="info">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="price">
+        <h2 class="end-price discounted">$125.00</h2>
+        <p class="first-price">$250.00</p>
+      </div>
+      
+
+      <div class="buy">
+        <div class="buy__amount">
+          <div class="decrese"><strong>-</strong></div>
+          <div class="amount"><strong>0</strong></div>
+          <div class="increse"><strong>+</strong></div>
+        </div>
+        <div class="add-btn">
+          <img src="./images/icon-cart.svg" alt="cart-icon">
+          <p><strong>Add to cart</strong></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- cart -->
+  <div class="cart-open cart-empty">
+    <h3 class="cart__title">Cart</h3>
+    <ul class="cart__items"></ul>
+  </div>
+
+  <!-- side-bar -->
+
+  <div class="side-bar">
+    <div class="side-bar__fade"></div>
+    <ul class="side-bar__list">
+        <div class="side-bar__list__close"><img src="./images/icon-close.svg" alt="close-side-bar"></div>
+        <li class="nav__elem"><a href="#"><strong>Collections</strong></a></li>
+        <li class="nav__elem"><a href="#"><strong>Men</strong></a></li>
+        <li class="nav__elem"><a href="#"><strong>Women</strong></a></li>
+        <li class="nav__elem"><a href="#"><strong>About</strong></a></li>
+        <li class="nav__elem"><a href="#"><strong>Contact</strong></a></li>
+    </ul>
+  </div>
+
+  
+
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
